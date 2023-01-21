@@ -1,9 +1,1021 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "email": "sdjskjsdjks@gmail.com",
+      "comment": "ddfdsdfsdsdf",
+      "idMovie": 3,
+      "id": 3
+    },
+    {
+      "email": "tgrgrtrt@gmail.com",
+      "comment": "edfsdfsdfsdsdfsd",
+      "idMovie": 1,
+      "id": 4
+    }
   ],
-  "profile": { "name": "typicode" }
+  "movies": [
+    {
+      "id": 1,
+      "titulo": "It: A Coisa",
+      "lancamento": 2017,
+      "thumb": "it-a-coisa.jpg",
+      "diretor": "Andy Muschietti",
+      "atores": [
+        "Bill Skarsgard",
+        "Jaeden Martell",
+        "Finn Wolfhard",
+        "Sophia Lillis",
+        "Jeremy Ray Taylor"
+      ],
+      "sinopse": "Um grupo de garotos maltratados se une para destruir um monstro que se disfarça de palhaço e ataca as crianças de sua pequena cidade.",
+      "rating": 268,
+      "genero": "Terror"
+    },
+    {
+      "id": 2,
+      "titulo": "O Iluminado",
+      "lancamento": 1980,
+      "thumb": "o-iluminado.jpg",
+      "diretor": "Stanley Kubrick",
+      "atores": [
+        "Danny Lloyd",
+        "Jack Nicholson",
+        "Scatman Crothers",
+        "Shelley Duvall",
+        "Alison Coleridge"
+      ],
+      "sinopse": "Durante o inverno, um homem, é contratado para ficar como vigia em um hotel no Colorado, e vai para lá com a mulher e seu filho. Porém, o contínuo isolamento começa a lhe causar problemas mentais sérios e ele vai se tornado cada vez mais agressivo e perigoso, ao mesmo tempo que seu filho passa a ter visões de acontecimentos ocorridos no passado, que também foram causados pelo isolamento excessivo.",
+      "rating": 264,
+      "genero": "Terror"
+    },
+    {
+      "id": 3,
+      "titulo": "Eu Sou a Lenda",
+      "lancamento": 2007,
+      "thumb": "eu-sou-a-lenda.jpg",
+      "diretor": "Francis Lawrence II",
+      "atores": [
+        "Will Smith",
+        "Alexander DiPersia",
+        "Alice Braga",
+        "Charlie Tahan",
+        "Dash Mihok"
+      ],
+      "sinopse": "Dr. Neville é um cientista militar. Ele é a única pessoa que não foi contaminada por um vírus, criado 3 anos antes por uma cientista que buscava uma cura para o câncer, em toda a cidade de Nova Iorque e provavelmente em centenas de quilômetros. Ele já era o responsável por encontrar uma cura para esse vírus, por isso tem um laboratório no qual faz testes a partir do próprio sangue. As pessoas infectadas que não morreram imediatamente vivem como vampiros, apresentando sintomas parecidos aos da raiva e um comportamento selvagem e ameaçador. Portanto, Neville tem que lutar diariamente tanto contra o risco de cometer um erro e ser pego pelas pessoas infectadas, como contra a solidão que o atormenta diariamente.",
+      "rating": 41,
+      "genero": "Terror"
+    },
+    {
+      "id": 4,
+      "titulo": "Guerra Mundial Z",
+      "lancamento": 2013,
+      "thumb": "guerra-mundial-z.jpg",
+      "diretor": "Marc Forster",
+      "atores": [
+        "Brad Pitt",
+        "James Badge Dale",
+        "Mireille Enos",
+        "Abigail Hargrove",
+        "Ann Ogbomo"
+      ],
+      "sinopse": "Quando uma doença devastadora se espalha pelo mundo, transformando a população em zumbis, o governo americano recruta o ex-investigador da ONU (Organização das Nações Unidas) Gerry Lane (Brad Pitt) para tentar descobrir o que está acontecendo, e ajudar a salvar a humanidade, considerando que a situação é a pior possível. Assim, ele precisa ir atrás do Paciente Zero, buscar entender as causas do contágio e correr contra o tempo nessa investigação epidemiológica.",
+      "rating": 22,
+      "genero": "Terror"
+    },
+    {
+      "id": 5,
+      "titulo": "Psicose",
+      "lancamento": 1960,
+      "thumb": "psicose.jpg",
+      "diretor": "Alfred Hitchcock",
+      "atores": [
+        "Anthony Perkins",
+        "Janet Leigh",
+        "Vera Miles",
+        "Alfred Hitchcock",
+        "Frank Albertson I"
+      ],
+      "sinopse": "Marion Crane rouba a firma em que trabalha e foge para recomeçar sua vida. Uma tempestade a faz parar num hotel de beira de estrada, onde é recebida pelo estranho, porém afável, Norman Bates, que cuida do lugar. Quando Marion desaparece, sua irmã e o amante decidem investigar.",
+      "rating": 0,
+      "genero": "Terror"
+    },
+    {
+      "id": 6,
+      "titulo": "Os Outros",
+      "lancamento": 2001,
+      "thumb": "os-outros.jpg",
+      "diretor": "Alejandro Amenábar",
+      "atores": [
+        "Alakina Mann",
+        "Fionnula Flanagan",
+        "James Bentley",
+        "Nicole Kidman",
+        "Aldo Grilo"
+      ],
+      "sinopse": "Durante a 2ª Guerra Mundial, Grace (Nicole Kidman) decide por se mudar, juntamente com seus dois filhos, para uma mansão isolada na ilha de Jersey, a fim de esperar que seu marido retorne da guerra. Como seus filhos possuem uma estranha doença que os impedem de receber diretamente a luz do sol, a casa onde vivem está sempre em total escuridão. Eles vivem sozinhos seguindo religiosamente certas regras, como nunca abrir uma porta sem fechar a anterior, mas quando eles contratam empregados para a casa eles terminam quebrando estas regras, fazendo com que imprevisíveis consequências ocorram.",
+      "rating": 10,
+      "genero": "Terror"
+    },
+    {
+      "id": 7,
+      "titulo": "Corra",
+      "lancamento": 2017,
+      "thumb": "corra.jpg",
+      "diretor": "Jordan Peele",
+      "atores": [
+        "Allison Williams",
+        "Caleb Landry Jones",
+        "Catherine Keener",
+        "Daniel Kaluuya",
+        "Lakeith Stanfield"
+      ],
+      "sinopse": "Chris (Daniel Kaluuya) é jovem negro que está prestes a conhecer a família de sua namorada caucasiana Rose (Allison Williams). A princípio, ele acredita que o comportamento excessivamente amoroso por parte da família dela é uma tentativa de lidar com o relacionamento de Rose com um rapaz negro, mas com o tempo, Chris percebe que a família esconde algo muito mais perturbador.",
+      "rating": 4,
+      "genero": "Terror"
+    },
+    {
+      "id": 8,
+      "titulo": "Constantine",
+      "lancamento": 2005,
+      "thumb": "constantine.jpg",
+      "diretor": "Francis Lawrence II",
+      "atores": [
+        "Keanu Reeves",
+        "Rachel Weisz",
+        "Shia LaBeouf",
+        "Tilda Swinton",
+        "Abe Pagtama"
+      ],
+      "sinopse": "",
+      "rating": 20,
+      "genero": ""
+    },
+    {
+      "id": 9,
+      "titulo": "O Chamado",
+      "lancamento": 2002,
+      "thumb": "o-chamado.jpg",
+      "diretor": "Gore Verbinski",
+      "atores": [
+        "David Dorfman I",
+        "Martin Henderson",
+        "Naomi Watts",
+        "Adam Brody",
+        "Aixa Clemente"
+      ],
+      "sinopse": "Rachel Keller (Naomi Watts) é uma jornalista que decide investigar a misteriosa morte de sua sobrinha. Ela percebe a relação da morte dela e de várias outras mortes com um estranho vídeo, que faz com que todas as pessoas que o assistam morram exatamente sete dias depois. Intrigada com a história, ela agora precisa descobrir um meio que impeça que a profecia se realize, já que ela e seu filho assistiram ao vídeo.",
+      "rating": 0,
+      "genero": "Terror"
+    },
+    {
+      "id": 10,
+      "titulo": "O Exorcista",
+      "lancamento": 1973,
+      "thumb": "o-exorcista.jpg",
+      "diretor": "William Friedkin",
+      "atores": [
+        "Arthur Storch",
+        "Barton Heyman",
+        "Donna Mitchell",
+        "Eileen Dietz",
+        "Ellen Burstyn"
+      ],
+      "sinopse": "Em Georgetown, Washington, uma atriz vai gradativamente tomando consciência que a sua filha de doze anos está tendo um comportamento completamente assustador. Deste modo, ela pede ajuda a um padre, que é também um psiquiatra, e este chega a conclusão de que a garota está possuída pelo demônio. Ele solicita então a ajuda de um segundo sacerdote, especialista em exorcismo, para tentar livrar a menina desta terrível possessão.",
+      "rating": 0,
+      "genero": "Terror"
+    },
+    {
+      "id": 11,
+      "titulo": "Invocação do Mal",
+      "lancamento": 2013,
+      "thumb": "invocacao-do-mal.jpg",
+      "diretor": "James Wan",
+      "atores": [
+        "Patric Wilson",
+        "Vera Farmiga",
+        "Amy Tipton",
+        "Ashley White",
+        "Christy Johnson"
+      ],
+      "sinopse": "Baseado em uma história real, o longa se passa em uma casa mal-assombrada, para onde uma família liderada por Lili Taylor e Ron Livingston se muda. Quando fica claro que uma entidade obscura os está perseguindo, eles chamam os investigadores paranormais Ed e Lorraine (Patrick Wilson e Vera Farmiga) para ajudar.",
+      "rating": 0,
+      "genero": "Terror"
+    },
+    {
+      "id": 12,
+      "titulo": "Fragmentado",
+      "lancamento": 2016,
+      "thumb": "fragmentado.jpg",
+      "diretor": "M. Night Shyamalan",
+      "atores": [
+        "Anya Taylor-Joy",
+        "Betty Buckley",
+        "Haley Lu Richardson",
+        "James McAvoy",
+        "Jessica Sula"
+      ],
+      "sinopse": "Kevin (James McAvoy) possui 23 personalidades distintas e consegue alterná-las quimicamente em seu organismo apenas com a força do pensamento. Um dia, ele sequestra três adolescentes que encontra em um estacionamento. Vivendo em cativeiro, elas passam a conhecer as diferentes facetas de Kevin e precisam encontrar algum meio de escapar.",
+      "rating": 9,
+      "genero": "Terror"
+    },
+    {
+      "id": 13,
+      "titulo": "Titanic",
+      "lancamento": 1997,
+      "thumb": "titanic.jpg",
+      "diretor": "James Cameron",
+      "atores": [
+        "Billy Zane",
+        "Frances Fisher I",
+        "Kate Winslet",
+        "Kathy Bates",
+        "Leonardo DiCaprio"
+      ],
+      "sinopse": "Uma expedição aos destroços do Titanic leva uma sobrevivente do naufrágio a relembrar uma grande história de amor que viveu no navio. Em 1912, na única viagem do que então era o maior navio já construído, Rose (Winslet) é uma jovem da alta sociedade prestes a se casar com seu rico noivo. Mas a bordo do Titanic ela conhece Jack Dawson (DiCaprio), um jovem simples e aventureiro, e se apaixona pelo rapaz. As diferenças sociais fazem com que muitos se oponham ao relacionamento que surge. Em meio ao intenso romance e à rebeldia dos dois, acontece o trágico acidente, que eles enfrentam juntos.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 14,
+      "titulo": "As Vantagens de Ser Invisível",
+      "lancamento": 2012,
+      "thumb": "as-vantagens-de-ser-invisivel.jpg",
+      "diretor": "Stephen Chbosky",
+      "atores": [
+        "Emma Watson",
+        "Ezra Miller",
+        "Logan Lerman",
+        "Adam Hagenbuch",
+        "Atticus Cain"
+      ],
+      "sinopse": "Um jovem tímido se esconde em seu próprio mundo até conhecer dois irmãos que o ajudam a viver novas experiências. Embora esteja feliz nessa nova fase, ele não esquece as tristezas do passado, que têm origem em uma chocante revelação.",
+      "rating": 1,
+      "genero": "Romance"
+    },
+    {
+      "id": 15,
+      "titulo": "Forrest Gump: O Contador de Histórias",
+      "lancamento": 1994,
+      "thumb": "forrest-gump-o-contador-de-historias.jpg",
+      "diretor": "Robert Zemeckis",
+      "atores": [
+        "Tom Hanks",
+        "Aaron Izbicki",
+        "Aaron Michael Lacey",
+        "Afemo Omilami",
+        "Alexander Zemeckis"
+      ],
+      "sinopse": "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de rapaz com QI abaixo da média que, por obra do acaso, consegue participar de momentos cruciais, como a Guerra do Vietnã e Watergate.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 16,
+      "titulo": "Edward Mãos de Tesoura",
+      "lancamento": 1990,
+      "thumb": "edward-maos-de-tesoura.jpg",
+      "diretor": "Tim Burton",
+      "atores": [
+        "Johnny Depp",
+        "Winona Ryder",
+        "Aaron Lustig",
+        "Alan Arkin",
+        "Alan Fudge"
+      ],
+      "sinopse": "Peg Boggs (Dianne Wiest) é uma vendedora da Avon que acidentalmente descobre Edward (Johnny Depp), um jovem que mora sozinho em um castelo no topo de uma montanha e que na verdade foi criado por um inventor (Vincent Price), que morreu antes de dar mãos ao estranho ser, que possui apenas enormes lâminas no lugar delas. Isto o impede de poder se aproximar dos humanos, a não ser para criar revolucionários cortes de cabelos, mas ele dá vazão à sua solidão interior ao podar a vegetação em forma de figuras ou esculpir lindas imagens no gelo. No entanto, Edward é vítima da sua inocência e, se é amado por uns, é perseguido e usado por outros.",
+      "rating": 40,
+      "genero": "Romance"
+    },
+    {
+      "id": 17,
+      "titulo": "Brilho Eterno de uma Mente sem Lembranças",
+      "lancamento": 2004,
+      "thumb": "brilho-eterno-de-uma-mente-sem-lembrancas.jpg",
+      "diretor": "Michel Gondry",
+      "atores": [
+        "Elijah Wood",
+        "Jim Carrey",
+        "Kate Winslet",
+        "Kirsten Dunst",
+        "Mark Ruffalo"
+      ],
+      "sinopse": "Ao descobrir que sua ex-namorada se submeteu a um tratamento experimental para apagá-lo de suas lembranças, Joel decide passar pelo mesmo processo. Porém, durante a experiência, ele percebe que não quer esquecê-la.",
+      "rating": 3,
+      "genero": "Romance"
+    },
+    {
+      "id": 18,
+      "titulo": "A Órfã",
+      "lancamento": 2009,
+      "thumb": "a-orfa.jpg",
+      "diretor": "Jaume Collet-Serra",
+      "atores": [
+        "Isabelle Fuhrman",
+        "Peter Sarsgaard",
+        "Vera Farmiga",
+        "Aryana Engineer",
+        "CCH Pounder"
+      ],
+      "sinopse": "A tragédia parece acompanhar a vida de Esther apesar dos seus 9 anos de idade. Ela é uma órfã russa e a família que a adotou morreu em um incêndio que também quase a matou. Mas agora uma nova família, os Coleman, a adotou e a vida parece ter entrado nos eixos novamente. Até o dia que uma colega de classe de Esther sofre um acidente mais sério, uma freira é golpeada até a morte e a nova mãe da garota começa a se perguntar se a família de Esther realmente morreu em um incêndio acidental.",
+      "rating": 40,
+      "genero": "Terror"
+    },
+    {
+      "id": 19,
+      "titulo": "O Lobo de Wall Street",
+      "lancamento": 2013,
+      "thumb": "o-lobo-de-wall-street.jpg",
+      "diretor": "Martin Scorsese",
+      "atores": [
+        "Leonardo DiCaprio",
+        "Margot Robbie",
+        "Matthew McConaughey",
+        "Rob Reiner",
+        "Aaron Glaser"
+      ],
+      "sinopse": "Durante seis meses, Jordan Belfort (Leonardo DiCaprio) trabalhou duro em uma corretora de Wall Street, seguindo os ensinamentos de seu mentor Mark Hanna (Matthew McConaughey). Quando finalmente consegue ser contratado como corretor da firma, acontece o Black Monday, que faz com que as bolsas de vários países caiam repentinamente. Sem emprego e bastante ambicioso, ele acaba trabalhando para uma empresa de fundo de quintal que lida com papéis de baixo valor, que não estão na bolsa de valores. É lá que Belfort tem a ideia de montar uma empresa focada neste tipo de negócio, cujas vendas são de valores mais baixos mas, em compensação, o retorno para o corretor é bem mais vantajoso. Ao lado de Donnie (Jonah Hill) e outros amigos dos velhos tempos, ele cria a Stratton Oakmont, uma empresa que faz com que todos enriqueçam rapidamente e, também, levem uma vida dedicada ao prazer.",
+      "rating": 30,
+      "genero": "Comédia"
+    },
+    {
+      "id": 20,
+      "titulo": "Procurando Nemo",
+      "lancamento": 2003,
+      "thumb": "procurando-nemo.jpg",
+      "diretor": "Andrew Stanton",
+      "atores": [
+        "Albert Brooks",
+        "Alexander Gould",
+        "Allison Janney",
+        "Brad Garrett",
+        "Ellen DeGeneres"
+      ],
+      "sinopse": "Quando Nemo, um jovem peixe-palhaço é capturado inesperadamente, seu pai Marlin se vê obrigado a embarcar em uma emocionante aventura de resgate. No caminho ele conhece Dory, uma peixinha muito divertida que vai ajudá-lo a enfrentar tubarões, águas-vivas e muito mais.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 21,
+      "titulo": "Up: Altas Aventuras",
+      "lancamento": 2009,
+      "thumb": "up-altas-aventuras.jpg",
+      "diretor": "Pete Docter",
+      "atores": [
+        "Christopher Plummer",
+        "Edward Asner",
+        "Jordan Nagai",
+        "Bob Bergen",
+        "Bob Peterson (III)"
+      ],
+      "sinopse": "Um velhinho viúvo chamado Carl Fredricksen, com seus setenta e poucos anos de idade, passou a vida sonhando em explorar o planeta e viver plenamente a vida. Até que um plano mirabolante invade sua cabeça teimosa: fazer sua casa inteira levantar voo através de balões e transportá-la dos Estados Unidos a um lugar em meio às montanhas da Venezuela.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 22,
+      "titulo": "Monstros S.A.",
+      "lancamento": 2001,
+      "thumb": "monstros-sa.jpg",
+      "diretor": "Pete Docter",
+      "atores": [
+        "Billy Crystal",
+        "John Goodman",
+        "Ashley Edner",
+        "Bill Farmer (I)",
+        "Bob Bergen"
+      ],
+      "sinopse": "O astro do susto, Sulley, e seu falante assistente, Mike, trabalham na Monstros S.A., a maior fábrica de processamento de gritos da cidade de Monstrópolis. A principal fonte de energia do mundo dos monstros provém da coleta dos gritos das crianças humanas. Os monstros acreditam que as crianças são tóxicas, e entram em Pânico quando uma menininha invade seu mundo. Sulley e Mike fazem de tudo para levar a garota de volta para casa, mas enfrentam desafios monstruosos e algumas situações hilárias em suas atrapalhadas aventuras.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 23,
+      "titulo": "A Fantástica Fábrica de Chocolate",
+      "lancamento": 2005,
+      "thumb": "a-fantastica-fabrica-de-chocolate.jpg",
+      "diretor": "Tim Burton",
+      "atores": [
+        "Christopher Lee (I)",
+        "David Kelly (I)",
+        "Deep Roy",
+        "Freddie Highmore",
+        "Helena Bonham Carter"
+      ],
+      "sinopse": "Willy Wonka (Johnny Depp) é o excêntrico dono da maior fábrica de doces do planeta, que decide realizar um concurso mundial para escolher um herdeiro para seu império. Cinco crianças de sorte, entre elas Charlie Bucket (Freddie Highmore), encontram um convite dourado em barras de chocolate Wonka e com isso ganham uma visita guiada pela lendária fábrica de chocolate, que não era visitada por ninguém há 15 anos. Encantado com as maravilhas da fábrica, Charlie fica cada vez mais fascinado com a visita.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 24,
+      "titulo": "O Rei Leão",
+      "lancamento": 1994,
+      "thumb": "o-rei-leao.jpg",
+      "diretor": "Rob Minkoff",
+      "atores": [
+        "Ernie Sabella",
+        "James Earl Jones",
+        "Jeremy Irons",
+        "Matthew Broderick",
+        "Nathan Lane"
+      ],
+      "sinopse": "Mufasa (James Earl Jones), o Rei Leão, e a rainha Sarabi (Madge Sinclair) apresentam ao reino o herdeiro do trono, Simba (Matthew Broderick). O recém-nascido recebe a bênção do sábio babuíno Rafiki (Robert Guillaume), mas ao crescer é envolvido nas artimanhas de seu tio Scar (Jeremy Irons), o invejoso e maquiavélico irmão de Mufasa, que planeja livrar-se do sobrinho e herdar o trono.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 25,
+      "titulo": "WALL·E",
+      "lancamento": 2008,
+      "thumb": "wall-e.jpg",
+      "diretor": "Andrew Stanton",
+      "atores": [
+        "Ben Burtt",
+        "Andrew Stanton",
+        "Angus MacLane",
+        "Elissa Knight",
+        "Fred Willard"
+      ],
+      "sinopse": "Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. Wall-E é o último destes robôs, que se mantém em funcionamento graças ao auto-conserto de suas peças. Sua vida consiste em compactar o lixo existente no planeta, que forma torres maiores que arranha-céus, e colecionar objetos curiosos que encontra ao realizar seu trabalho. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, Wall-E logo se apaixona pela recém-chegada.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 26,
+      "titulo": "Divertida Mente",
+      "lancamento": 2015,
+      "thumb": "divertida-mente.jpg",
+      "diretor": "Pete Docter",
+      "atores": [
+        "Amy Poehler",
+        "Bill Hader",
+        "Kaitlyn Dias",
+        "Lewis Black",
+        "Mindy Kaling"
+      ],
+      "sinopse": "Crescer pode ser uma jornada turbulenta, e com Riley não é diferente. Ela é retirada de sua vida no meio-oeste americano quando seu pai arruma um novo emprego em São Francisco. Como todos nós, Riley é guiada pelas emoções – Alegria, Medo, Raiva, Nojinho e Tristeza. As emoções vivem no centro de controle dentro da mente de Riley, onde a ajudam com conselhos em sua vida cotidiana. Conforme Riley e suas emoções se esforçam para se adaptar à nova vida em São Francisco, começa uma agitação no centro de controle. Embora Alegria, a principal e mais importante emoção de Riley, tente se manter positiva, as emoções entram em conflito sobre qual a melhor maneira de viver em uma nova cidade, casa e escola.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 27,
+      "titulo": "A Era do Gelo",
+      "lancamento": 2002,
+      "thumb": "a-era-do-gelo.jpg",
+      "diretor": "Carlos Saldanha (I)",
+      "atores": [
+        "Alan Tudyk",
+        "Cedric the Entertainer",
+        "Chris Wedge",
+        "Denis Leary",
+        "Denny Dillon"
+      ],
+      "sinopse": "Em plena Era Glacial, um grupo de animais, incluindo um tigre dentes-de-sabre, um mamute e algumas preguiças gigantes, encontra uma criança perdida. Juntos, eles decidem por procurar a família do menino, para que possam devolvê-lo.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 28,
+      "titulo": "Ratatouille",
+      "lancamento": 2007,
+      "thumb": "ratatouille.jpg",
+      "diretor": "Brad Bird",
+      "atores": [
+        "Lou Romano",
+        "Patton Oswalt",
+        "Andrea Boerries",
+        "Brad Bird",
+        "Brad Garrett"
+      ],
+      "sinopse": "Paris. Remy é um rato que sonha se tornar um grande chef. Só que sua família é contra a idéia, além do fato de que, por ser um rato, ele sempre é expulso das cozinhas que visita. Um dia, enquanto estava nos esgotos, ele fica bem embaixo do famoso restaurante de seu herói culinário, Auguste Gusteau. Ele decide visitar a cozinha do lugar e lá conhece Linguini, um atrapalhado ajudante que não sabe cozinhar e precisa manter o emprego a qualquer custo. Remy e Linguini realizam uma parceria, em que Remy fica escondido sob o chapéu de Linguini e indica o que ele deve fazer ao cozinhar.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 29,
+      "titulo": "Vida de Inseto",
+      "lancamento": 1998,
+      "thumb": "vida-de-inseto.jpg",
+      "diretor": "Andrew Stanton",
+      "atores": [
+        "Alex Rocco",
+        "Andrew Stanton",
+        "Anthony Burch",
+        "Ashley Tisdale",
+        "Bill Farmer (I)"
+      ],
+      "sinopse": "Todo ano, os gananciosos gafanhotos exigem uma parte da colheita das formigas. Mas quando algo dá errado e a colheita é destruída, os gafanhotos ameaçam atacar e as formigas são forçadas a pedir ajuda a outros insetos para enfrentá-los numa batalha.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 30,
+      "titulo": "Piratas do Caribe: O Baú da Morte",
+      "lancamento": 2006,
+      "thumb": "piratas-do-caribe-o-bau-da-morte.jpg",
+      "diretor": "Gore Verbinski",
+      "atores": [
+        "Johnny Depp",
+        "Keira Knightley",
+        "Orlando Bloom",
+        "Andy Beckwith",
+        "Ann Channell"
+      ],
+      "sinopse": "Elizabeth Swann (Keira Knightley), a filha do governador Weatherby (Jonathan Pryce), está prestes a se casar com o ferreiro Will Turner (Orlando Bloom). Porém o evento é atrapalhado pela ameaça de Davy Jones (Bill Nighy), o capitão do assombrado navio Holandês Voador, que tem uma dívida de sangue com o capitão Jack Sparrow (Johnny Depp), amigo do casal. Temendo ser amaldiçoado a uma vida após a morte como escravo de Jones, Sparrow precisa encontrar o misterioso baú da morte, que contém o coração do vilão, para escapar da ameaça.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 31,
+      "titulo": "Como Treinar o seu Dragão",
+      "lancamento": 2010,
+      "thumb": "como-treinar-o-seu-dragao.jpg",
+      "diretor": "Chris Sanders (II)",
+      "atores": [
+        "Jay Baruchel",
+        "America Ferrera",
+        "Ashley Jensen (I)",
+        "Christopher Mintz-Plasse",
+        "Craig Ferguson"
+      ],
+      "sinopse": "Soluço é um viking adolescente que não combina muito bem com a longa tradição de sua tribo de heróicos matadores de dragões. Seu mundo vira de cabeça para baixo quando ele encontra um dragão que desafia tanto ele quanto seus amigos a encararem o mundo a partir de outro ponto de vista.",
+      "rating": 0,
+      "genero": "Aventura"
+    },
+    {
+      "id": 32,
+      "titulo": "Sr. & Sra. Smith",
+      "lancamento": 2005,
+      "thumb": "sr-e-sra-smith.jpg",
+      "diretor": "Doug Liman",
+      "atores": [
+        "Adam Brody",
+        "Amy Hathaway",
+        "Angelina Jolie",
+        "Brad Pitt",
+        "Chris Weitz"
+      ],
+      "sinopse": "Uma aventura de ação sexy, na qual John e Jane Smith são um casal suburbano com um casamento normal e sem vida. John é um engenheiro de sucesso, e Jane uma empresária do ramo de sistemas de informática. Mas cada um deles tem um segredo que o outro desconhece: são ambos lendários assassinos. Quando recebem ambos a mesma missão e essencialmente cancelam a missão do outro, acabam trocando tiros entre si (literalmente e figurativamente) quando recebem a missão de matar um ao outro. Finalmente, enquanto guerreavam em sua casa, se reconciliam, mas acabam descobrindo que suas respectivas agências teriam armado essa mesma missão, do qual teriam recebido anteriormente. Essas agências também mandaram assassinos para matar ambos, quando o casal se reconciliou.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 33,
+      "titulo": "O Amor É Cego",
+      "lancamento": 2001,
+      "thumb": "o-amor-e-cego.jpg",
+      "diretor": "Bobby Farrelly",
+      "atores": [
+        "Gwyneth Paltrow",
+        "Jack Black",
+        "Jason Alexander (I)",
+        "Joe Viterelli",
+        "Susan Ward (I)"
+      ],
+      "sinopse": "Hal (Jack Black) é um homem que segue à risca o conselho de seu falecido pai e apenas se interessa por mulheres que tenham um físico perfeito. Mas tudo muda quando ele por acaso se encontra com Anthony Robbins, um guru de auto-ajuda que o hipnotiza e faz com que ele apenas possa visualizar a beleza interior das mulheres, em detrimento de seu físico. Sem saber que está sob o efeito de hipnose, Hal então se apaixona por Rosemary (Gwyneth Paltrow), uma mulher obesa que é vista por ele como se fosse uma verdadeira deusa. Até que, após ser retirado da hipnose por seu amigo Mauricio (Jason Alexander), ele passa a ver como Rosemary é de verdade fisicamente e precisa tomar uma decisão sobre seu relacionamento com ela.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 34,
+      "titulo": "O Máskara",
+      "lancamento": 1994,
+      "thumb": "o-maskara.jpg",
+      "diretor": "Chuck Russell (I)",
+      "atores": [
+        "Jim Carrey",
+        "Peter Greene (I)",
+        "Peter Riegert",
+        "Amy Yasbeck",
+        "Beau Lotterman"
+      ],
+      "sinopse": "Em Edge City vive Stanley Ipkiss, um cara decente que trabalha em um banco mas é socialmente desajeitado e sem muito sucesso com as mulheres. Após um dos piores dias da sua vida, ele acha no mar a estranha máscara de Loki, um deus escandinavo. Quando Stanley coloca a máscara, se transforma em O Máskara, um ser com o rosto verde que possui a coragem para fazer as coisas mais arriscadas e divertidas que Stanley receia fazer, inclusive flertar com Tina Carlyle, a bela e sensual cantora que se apresenta no Coco Bongo, a discoteca do momento. O Máskara tem velocidade sobre-humana e um humor não-convencional e, enquanto isto, o gângster Dorian Tyrrell, que namora Tina, se esforça para destruir o Máskara e se apoderar da máscara para usar seus poderes para o mal.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 35,
+      "titulo": "Ted",
+      "lancamento": 2012,
+      "thumb": "ted.jpg",
+      "diretor": "Seth MacFarlane",
+      "atores": [
+        "Joel McHale",
+        "Mark Wahlberg (I)",
+        "Mila Kunis",
+        "Seth MacFarlane",
+        "Aedin Mincks"
+      ],
+      "sinopse": "A trama fala de um cara normal de Boston que na infância desejou que seu urso de pelúcia ganhasse vida e que viu esse sonho se realizar.O problema é que o urso em tamanho real, que o tem acompanhado a vida toda, começa a complicar a sua rotina de adulto.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 36,
+      "titulo": "Zumbilândia ",
+      "lancamento": 2009,
+      "thumb": "zombilandia.jpg",
+      "diretor": "Ruben Fleischer",
+      "atores": [
+        "Abigail Breslin",
+        "Emma Stone",
+        "Jesse Eisenberg",
+        "Woody Harrelson",
+        "Amber Heard"
+      ],
+      "sinopse": "Dois errantes solitários em meio ao apocalipse zumbi decidem se ajudar a chegar aos seus destinos, mas topam com duas garotas articuladas e muito mais espertas que eles.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 37,
+      "titulo": "A Origem",
+      "lancamento": 2010,
+      "thumb": "a-origem.jpg",
+      "diretor": "Christopher Nolan",
+      "atores": [
+        "Cillian Murphy",
+        "Elliot Pag",
+        "Joseph Gordon-Levitt",
+        "Ken Watanabe (I)",
+        "Leonardo DiCaprio"
+      ],
+      "sinopse": "Dom Cobb (Leonardo DiCaprio) é um habilidoso ladrão, o melhor na perigosa arte da extração, o roubo de valiosos segredos das profundezas do subconsciente durante os sonhos das pessoas, quando a mente fica totalmente vulnerável. Essa rara habilidade de Cobb fez dele um cobiçado jogador nesse traiçoeiro novo mundo da espionagem corporativa, mas também fez dele um fugitivo internacional que perdeu tudo o que mais amava. Agora, uma chance de redenção foi oferecida a Cobb. Um último trabalho pode trazer sua vida normal de volta, mas somente se ele conseguir o impossível - inserção. Ao invés de fazer o roubo perfeito, Cobb e sua equipe de especialistas têm que fazer o oposto: a missão não é roubar uma ideia, mas sim plantar uma ideia. Se eles obtiverem sucesso, pode ser o crime perfeito. Mas nem mesmo um plano cuidadoso poderia prepará-los para um perigoso inimigo que parece prever cada movimento deles. Um inimigo que somente Cobb poderia prever.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 38,
+      "titulo": "Tropa de Elite",
+      "lancamento": 2007,
+      "thumb": "tropa-de-elite.jpg",
+      "diretor": "José Padilha",
+      "atores": [
+        "Wagner Moura",
+        "Alexandre Mofatti",
+        "André Di Mauro",
+        "André Ramiro",
+        "André Santinho"
+      ],
+      "sinopse": "1997. O dia-a-dia do grupo de policiais e de um capitão do BOPE (Wagner Moura), que quer deixar a corporação e tenta encontrar um substituto para seu posto. Paralelamente dois amigos de infância se tornam policiais e se destacam pela honestidade e honra ao realizar suas funções, se indignando com a corrupção existente no batalhão em que atuam.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 39,
+      "titulo": "Os Vingadores",
+      "lancamento": 2012,
+      "thumb": "os-vingadores.jpg",
+      "diretor": "Joss Whedon",
+      "atores": [
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Jeremy Renner",
+        "Mark Ruffalo",
+        "Robert Downey Jr."
+      ],
+      "sinopse": "Loki (Tom Hiddleston) retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar os humanos. Com a promessa de que será o soberano do planeta, ele rouba o cubo mágico dentro de instalações da S.H.I.E.L.D. e, com isso, adquire grandes poderes. Loki os usa para controlar o dr. Erik Selvig (Stellan Skarsgard) e Clint Barton/Gavião Arqueiro (Jeremy Renner), que passam a trabalhar para ele. No intuito de contê-los, Nick Fury (Samuel L. Jackson) convoca um grupo de pessoas com grandes habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro (Robert Downey Jr.), Steve Rogers/Capitão América (Chris Evans), Thor (Chris Hemsworth), Bruce Banner/Hulk (Mark Ruffalo) e Natasha Romanoff/Viúva Negra (Scarlett Johansson). Só que, apesar do grande perigo que a Terra corre, não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 40,
+      "titulo": "Batman: O Cavaleiro das Trevas",
+      "lancamento": 2008,
+      "thumb": "batman-o-cavaleiro-das-trevas.jpg",
+      "diretor": "Christopher Nolan",
+      "atores": [
+        "Aaron Eckhart",
+        "Christian Bale",
+        "Gary Oldman",
+        "Heath Ledger",
+        "Maggie Gyllenhaal"
+      ],
+      "sinopse": "Após dois anos desde o surgimento do Batman (Christian Bale), os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon (Gary Oldman) e do promotor público Harvey Dent (Aaron Eckhart), Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa (Heath Ledger) e o contratam para combater o Homem-Morcego.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 41,
+      "titulo": "Jogos Vorazes",
+      "lancamento": 2012,
+      "thumb": "jogos-vorazes.jpg",
+      "diretor": "Gary Ross (I)",
+      "atores": [
+        "Donald Sutherland",
+        "Elizabeth Banks",
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Liam Hemsworth"
+      ],
+      "sinopse": "Na região antigamente conhecida como América do Norte, a Capital de Panem controla 12 distritos e os força a escolher um garoto e uma garota, conhecidos como tributos, para competir em um evento anual televisionado. Todos os cidadãos assistem aos temidos jogos, no qual os jovens lutam até a morte, de modo que apenas um saia vitorioso. A jovem Katniss Everdeen, do Distrito 12, confia na habilidade de caça e na destreza com o arco, além dos instintos aguçados, nesta competição mortal.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 42,
+      "titulo": "Matrix",
+      "lancamento": 1999,
+      "thumb": "matrix.jpg",
+      "diretor": "Lana Wachowski & Lilly Wachowski",
+      "atores": [
+        "Carrie-Anne Moss",
+        "Hugo Weaving",
+        "Joe Pantoliano",
+        "Keanu Reeves",
+        "Laurence Fishburne"
+      ],
+      "sinopse": "Um jovem programador (Keanu Reeves) é atormentado por estranhos pesadelos nos quais sempre está conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a levantar dúvidas sobre a realidade. E quando encontra os misteriosos Morpheus e Trinity, ele descobre que é vítima do Matrix, um sistema inteligente e artificial que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 43,
+      "titulo": "Batman: O Cavaleiro das Trevas Ressurge",
+      "lancamento": 2012,
+      "thumb": "batman-o-cavaleiro-das-trevas-ressurge.jpg",
+      "diretor": "Christopher Nolan",
+      "atores": [
+        "Anne Hathaway",
+        "Christian Bale",
+        "Gary Oldman",
+        "Joseph Gordon-Levitt",
+        "Liam Neeson"
+      ],
+      "sinopse": "Passaram-se oito anos desde que Batman desapareceu na noite, e naquele instante passou de herói a vilão. Ao assumir a culpa pela morte do promotor Harvey Dent, o Cavaleiro das Trevas sacrificou tudo o que era importante para ele, e agora sofre uma perseguição liderada por seu amigo Comissário Gordon. Agora, ele terá de lidar com a chegada de um ladrão muito esperto e misterioso. Muito mais perigoso, no entanto, é o aparecimento de Bane, um terrorista mascarado, cujo plano é tirar Bruce desse exílio auto-imposto.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 44,
+      "titulo": "Kill Bill: Volume 1",
+      "lancamento": 2003,
+      "thumb": "kill-bill-volume-1.jpg",
+      "diretor": "Quentin Tarantino",
+      "atores": [
+        "Uma Thurman",
+        "Ai Maeda (II)",
+        "Akaji Maro",
+        "Ambrosia Kelley",
+        "Chiaki Kuriyama"
+      ],
+      "sinopse": "No dia de seu casamento, a Noiva (Uma Thurman), uma perigosa assassina profissional, é espancada pelos membros do grupo de extermínio de que fazia parte. Bill, o chefe do grupo, atira em sua cabeça, o que a coloca em coma por quatro anos. Ao despertar, ela tem único desejo: vingança.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 45,
+      "titulo": "Guardiões da Galáxia",
+      "lancamento": 2014,
+      "thumb": "guardioes-da-galaxia.jpg",
+      "diretor": "James Gunn (II)",
+      "atores": [
+        "Benicio Del Toro",
+        "Bradley Cooper",
+        "Chris Pratt",
+        "Dave Bautista",
+        "Djimon Hounsou"
+      ],
+      "sinopse": "O impetuoso aventureiro Peter Quill se vê como objeto de uma caçada implacável após roubar uma misteriosa esfera cobiçada por Ronan, um vilão poderoso com ambição que ameaça todo o universo. Para fugir do determinado Ronan, Quill é forçado a fazer uma complicada aliança com um quarteto de desajustados - Rocket, um guaxinim atirador, Groot, uma árvore mutante humanoide, a mortal e enigmática Gamora e o vingador Drax, o Destruidor. Mas quando Quill descobre o verdadeiro poder da esfera e o perigo que ela representa para o cosmo, ele deve fazer seu melhor para reunir seu grupo desorganizado para uma última e desesperada resistência - com o destino da galáxia em jogo.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 46,
+      "titulo": "Homem de Ferro",
+      "lancamento": 2008,
+      "thumb": "homem-de-ferro.jpg",
+      "diretor": "Jon Favreau",
+      "atores": [
+        "Gwyneth Paltrow",
+        "Jeff Bridges",
+        "Robert Downey Jr.",
+        "Shaun Toub",
+        "Terrence Howard"
+      ],
+      "sinopse": "Tony Stark (Robert Downey Jr.) é um industrial bilionário, que também é um brilhante inventor. Ao ser sequestrado ele é obrigado por terroristas a construir uma arma devastadora mas, ao invés disto, constrói uma armadura de alta tecnologia que permite que fuja de seu cativeiro. A partir de então ele passa a usá-la para combater o crime, sob o alter-ego do Homem de Ferro.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 47,
+      "titulo": "Thor",
+      "lancamento": 2011,
+      "thumb": "thor.jpg",
+      "diretor": "Kenneth Branagh",
+      "atores": [
+        "Anthony Hopkins",
+        "Chris Hemsworth",
+        "Colm Feore",
+        "Idris Elba",
+        "Kat Dennings"
+      ],
+      "sinopse": "Quando é banido do reino de Asgard e exilado na Terra, o arrogante guerreiro Thor (Chris Hemsworth) é obrigado a lutar para reaver seus poderes perdidos. Perseguido pela força invasora enviada para destruí-lo, o desventurado Deus do Trovão tem que enfrentar a batalha e descobrir o que é preciso para se tornar um verdadeiro herói.",
+      "rating": 0,
+      "genero": "Ação"
+    },
+    {
+      "id": 48,
+      "titulo": "Se Eu Fosse Você",
+      "lancamento": 2006,
+      "thumb": "se-eu-fosse-voce.jpg",
+      "diretor": "Daniel Filho",
+      "atores": [
+        "Glória Pires",
+        "Antonia Frering",
+        "Ary Fontoura",
+        "Carla Daniel",
+        "Daniel Filho"
+      ],
+      "sinopse": "Cláudio (Tony Ramos) é um publicitário bem sucedido, dono de sua própria agência, que é casado com Helena (Glória Pires), uma professora de música que cuida de um coral infantil. Acostumados com a rotina do dia-a-dia e do casamento de tantos anos, eles volta e meia têm uma discussão. Um dia eles têm uma briga maior do que o normal, que faz com que algo inexplicável aconteça: eles trocam de corpos. Apavorados, Cláudio e Helena tentam aparentar normalidade até que consigam revertar a situação. Porém para tanto eles terão que assumir por completo a vida do outro",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 49,
+      "titulo": "Eu, Eu Mesmo e Irene",
+      "lancamento": 2000,
+      "thumb": "eu-eu-mesmo.jpg",
+      "diretor": "Bobby Farrelly",
+      "atores": [
+        "Jim Carrey",
+        "Renée Zellweger",
+        "Shannon Whirry",
+        "A.B. Farrelly",
+        "Andrew Greenbury"
+      ],
+      "sinopse": "Jim Carrey interpreta Charlie, um policial rodoviário que é humilhado pela população depois de sua mulher tê-lo traído no dia de seu casamento, deixando com ele três filhos de outro homem. Charlie sofre de um mal por conseqüência de tantos anos de humilhação: a síndrome da personalidade dupla, que o faz grosseiro e agressivo. Até que nosso anti-herói apaixona-se pela jovem Irene, que está envolvida numa encrenca com bandidos de seu passado.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 50,
+      "titulo": "Debi & Lóide: Dois Idiotas em Apuros",
+      "lancamento": 1994,
+      "thumb": "debi-e-loide.jpg",
+      "diretor": "Peter Farrelly",
+      "atores": [
+        "Jeff Daniels",
+        "Jim Carrey",
+        "Anita Rice",
+        "Anna Åberg",
+        "Bill Beauchene"
+      ],
+      "sinopse": "Lloyd Christmas e Harry Dunne são dois homens extremamente estúpidos. Quando Lloyd leva até o aeroporto Mary Swanson, uma bela mulher que vai para Aspen, Colorado, acredita que Mary perdeu uma mala. Na verdade ela esqueceu no saguão, pois dentro dela está uma grande soma para pagar o resgate do marido, mas antes que os sequestradores peguem a valise, Lloyd a recupera e tenta lhe entregar. Como o voo já partiu e ele se sente atraído por Mary, convence Harry para irem até Aspen para devolver o dinheiro. Na viagem se envolvem em várias confusões, além de serem perseguidos pelos sequestradores.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 51,
+      "titulo": "Garfield: O Filme",
+      "lancamento": 2004,
+      "thumb": "garfield.jpg",
+      "diretor": "Peter Hewitt",
+      "atores": [
+        "Bill Murray",
+        "Breckin Meyer",
+        "Alan Cumming",
+        "Alyson Stoner",
+        "Annalea Rawicz"
+      ],
+      "sinopse": "Garfield é um gato preguiçoso que adora lasanha e tem a vida que sempre quis: come, dorme e vê televisão sempre que quer. Até que seu dono, Jon Arbuckle (Breckin Meyer), decide adotar um cachorro, Odie. Contrariado com o novo hóspede, que agora divide com ele a atenção de seu dono, Garfield inicia uma disputa particular com Odie. Porém, quando Odie é sequestrado, Garfield sente remorsos e parte para salvar o cachorro",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 52,
+      "titulo": "Mudança de Hábito",
+      "lancamento": 1992,
+      "thumb": "mudanca-de-habito.jpg",
+      "diretor": "Emile Ardolino",
+      "atores": [
+        "Whoopi Goldberg",
+        "Aric Cushing",
+        "Beth Fowler",
+        "Bill Nunn",
+        "Carmen Zapata"
+      ],
+      "sinopse": "Em Reno, Nevada, Deloris Van Cartier (Whoopi Goldberg) é uma cantora que acidentalmente testemunha um brutal assassinato cometido pelo seu namorado, Vince LaRocca (Harvey Keitel), um gângster. Enquanto tentam capturar Vince, um detetive, Eddie Souther (Bill Nunn), é encarregado de protegê-la. Deloris é colocada no programa de proteção às testemunhas e é mandada para um convento em São Francisco disfarçada de freira, usando o nome de irmã Mary Clarence.Mas seu jeito extrovertido, que não é aprovado pela Madre Superiora (Maggie Smith), acaba fazendo ela dar uma nova vida ao coral, chamando a atenção das pessoas e de Vince.",
+      "rating": 0,
+      "genero": "Comédia"
+    },
+    {
+      "id": 53,
+      "titulo": "(500) Dias com Ela",
+      "lancamento": 2009,
+      "thumb": "500-dias-com-ela.jpg",
+      "diretor": "Marc Webb",
+      "atores": [
+        "Chloe Grace Moretz",
+        "Joseph Gordon Levitt",
+        "Matthew Gray Gubler",
+        "Zooey Deschanel",
+        "Clark Gregg"
+      ],
+      "sinopse": "Quando Tom (Joseph Gordon-Levitt), azarado escritor de cartões comemorativos e românticos sem esperanças, fica sem rumo depois de levar um fora da namorada Summer (Zooey Deschanel), ele volta a vários momentos dos 500 dias que passaram juntos para tentar entender o que deu errado. Suas reflexões acabam levando-o a redescobrir suas verdadeiras paixões na vida.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 54,
+      "titulo": "O Diabo Veste Prada",
+      "lancamento": 2006,
+      "thumb": "o-diabo-veste-prada.jpg",
+      "diretor": "David Frankel",
+      "atores": [
+        "Adrian Grenier",
+        "Anne Hathaway",
+        "Emily Blunt",
+        "Meryl Streep",
+        "Simon Baker"
+      ],
+      "sinopse": "Andrea Sachs (Anne Hathaway) é uma jovem que conseguiu um emprego na Runaway Magazine, a mais importante revista de moda de Nova York. Ela passa a trabalhar como assistente de Miranda Priestly (Meryl Streep), principal executiva da revista. Apesar da chance que muitos sonhariam em conseguir, logo Andrea nota que trabalhar com Miranda não é tão simples assim.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 55,
+      "titulo": "A Vida é Bela",
+      "lancamento": 1997,
+      "thumb": "a-vida-e-bela.jpg",
+      "diretor": "Roberto Benigni",
+      "atores": [
+        "Giorgio Cantarini",
+        "Nicoletta Braschi",
+        "Roberto Benigni",
+        "Aaron Craig",
+        "Alessandra Grassi"
+      ],
+      "sinopse": "Na Itália dos anos 40, Guido (Roberto Benigni) é levado para um campo de concentração nazista e tem que usar sua imaginação para fazer seu pequeno filho acreditar que estão participando de uma grande brincadeira, com o intuito de protegê-lo do terror e da violência que os cercam.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 56,
+      "titulo": "A Teoria de Tudo",
+      "lancamento": 2014,
+      "thumb": "a-teoria-de-tudo.jpg",
+      "diretor": "James Marsh",
+      "atores": [
+        "Eddie Redmayne",
+        "Felicity Jones",
+        "Adam Godley",
+        "Alice Orr-Ewing",
+        "Brett Brock"
+      ],
+      "sinopse": "Baseado na biografia de Stephen Hawking, o filme mostra como o jovem astrofísico (Eddie Redmayne) fez descobertas importantes sobre o tempo, além de retratar o seu romance com a aluna de Cambridge Jane Wide (Felicity Jones) e a descoberta de uma doença motora degenerativa quando tinha apenas 21 anos.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 57,
+      "titulo": "A Culpa é das Estrelas",
+      "lancamento": 2014,
+      "thumb": "a-culpa-e-das-estrelas.jpg",
+      "diretor": "Josh Boone",
+      "atores": [
+        "Ansel Elgort",
+        "Shailene Woodley",
+        "Carole Weyers",
+        "David Whalen",
+        "Emily Peachey"
+      ],
+      "sinopse": "Diagnosticada com câncer, Hazel Grace Lancaster (Shailene Woodley) se mantém viva graças a uma droga experimental. Após passar anos lutando com a doença, a jovem é forçada pelos pais a participar de um grupo de apoio e logo conhece Augustus Waters (Ansel Elgort), um rapaz que vai mudar completamente a sua vida.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 58,
+      "titulo": "Um Amor para Recordar",
+      "lancamento": 2002,
+      "thumb": "um-amor-para-recordar.jpg",
+      "diretor": "Adam Shankman",
+      "atores": [
+        "Mandy Moore",
+        "Shane West I",
+        "Adam Shankman",
+        "Al Butler",
+        "Al Thompson II"
+      ],
+      "sinopse": "Como punição por ter feito uma brincadeira de mau gosto que resultou na hospitalização de um colega, Landon Carter (Shane West) é obrigado a trabalhar como tutor de jovens carentes e a participar da peça teatral da escola. Ele será auxiliado por Jamie Sullivan (Mandy Moore), a filha do pastor da cidade, com quem estudou desde criança mas nunca teve nada em comum: ela usa sempre o mesmo suéter velho, não tem muitos amigos, é excelente aluna e extremamente religiosa. No início, o garoto se revolta com a situação porém, quanto mais tempo passa com Jamie, mais intrigado ele fica, e acaba deixando de atender o único pedido feito pela garota quando começaram a andar juntos: o de que não se apaixonasse por ela. Baseado no romance homônimo (também lançado como Um Momento Inesquecível), de Nicholas Sparks.",
+      "rating": 0,
+      "genero": "Romance"
+    },
+    {
+      "id": 59,
+      "titulo": "Ghost: Do Outro Lado da Vida",
+      "lancamento": 1990,
+      "thumb": "ghost-do-outro-lado-da-vida.jpg",
+      "diretor": "Jerry Zucker",
+      "atores": [
+        "Demi Moore",
+        "Patrick Swayze",
+        "Whoopi Goldberg",
+        "Alma Beltran",
+        "Angelina Estrada"
+      ],
+      "sinopse": "Sam Wheat é um banqueiro apaixonado por sua namorada, Molly. Ele acaba morto em um assalto, mas seu espírito não vai para o outro plano e descobre que Molly também corre perigo. Para salvá-la, Sam pede ajuda a uma médium que consegue ouvi-lo.",
+      "rating": 0,
+      "genero": "Romance"
+    }
+  ]
 }
